@@ -1,0 +1,29 @@
+{
+    "context": "client",
+    "identifier": "com.pa.werty.wModPing",
+    "display_name": "Mod Ping",
+    "description": "Can ping your enabled mods into ingame chat.",
+    "author": "The Magnificent Werty",
+    "version": "0.1.0",
+    "build": "61450",
+    "date": "2014/03/03",
+    "forum": "",
+    "icon": "",
+    "category": [
+        "in-game",
+        "ui"
+    ],
+    "id": "wModPing",
+    "priority": 100,
+    "live_game": [
+        "coui://ui/mods/wModPing/init.js",
+        "coui://ui/mods/wModPing/core.js",
+        "coui://ui/mods/wModPing/modping.css"
+    ],
+    "new_game": [
+        "coui://ui/mods/wModPing/init.js",
+        "coui://ui/mods/wModPing/core.js",
+        "coui://ui/mods/wModPing/modping.css"
+    ],
+    "enabled": true
+}
